@@ -1,0 +1,1579 @@
+﻿__Name = "Simplified Chinese"
+__DebugOnly = false
+
+Misc
+{
+	Okay = "Okay"
+	Cancel = "Cancel"
+	Yes = "Yes"
+	No = "No"
+	ScreenshotSavedFmt = "Screenshot saved to <b>{0}</b>"
+	ScreenshotOpenFolder = "Open Folder"
+	DefaultShipName = "Unnamed Ship"
+	SavedGameIncompatible = "That saved game is incompatible with this version of Cosmoteer. Sorry!"
+	SavedShipIncompatible = "That saved ship is incompatible with this version of Cosmoteer. Sorry!"
+	SaveShipError = "Error saving ship: {0}"
+	LoadShipError = "Error loading ship: {0}"
+	SaveGameError = "Error saving game: {0}"
+	ShipClassIncompatible = "Incompatible ship class."
+}
+
+MainMenu
+{
+	NewGame = "New Game"
+	LoadGame = "Load Game"
+	Exit = "Exit"
+	Settings = "Settings"
+	Mods = "Mods"
+	ShipLibrary = "Ship Library"
+	Credits = "Credits"
+	Community = "Community"
+	Forum = "Forum"
+	Discord = "Chat (Discord)"
+	Wiki = "Wiki"
+	Reddit = "Reddit"
+	Facebook = "Facebook"
+	Twitter = "Twitter"
+	Itch = "itch.io"
+	IndieDB = "Indie DB"
+	Feedback = "Send Feedback"
+	OpenUrlConfirm = "This will minimize Cosmoteer and open a page in your web browser."
+}
+
+NewGame
+{
+	BountyMode = "<b>Bounty Hunter</b>\n<s6> \n</s6><color r='204' g='204' b='204'>Learn how to play</color>"
+	BountyModeTip = "Destroy enemy ships to earn bounties and upgrade your own ship."
+	CreativeMode = "<b>Creative</b>\n<s6> \n</s6><color r='204' g='204' b='204'>Unlimited money</color>"
+	CreativeModeTip = "Build the ships of your dreams with an unlimited amount of money."
+}
+
+LoadSaveGame
+{
+	TitleLoad = "Load Game"
+	TitleSave = "Save Game"
+	OkayLoad = "Load Game"
+	OkaySave = "Save Game"
+	OpenFolder = "Open Folder"
+	Delete = "Delete"
+	ConfirmDeleteFmt = "Are you sure you wish to delete '{0}'?"
+	ConfirmOverwrite = "Overwrite existing saved game?"
+}
+
+ShipLibrary
+{
+	TitleLoad = "Load Ship"
+	TitleSave = "Save Ship"
+	TitleBuy = "Buy Ship"
+	TitlePlaytest = "Ship Library"
+	TitleOrganize = "Ship Library"
+
+	SmallIcons = "Small Icons"
+	LargeIcons = "Large Icons"
+
+	OkayLoad = "Load Ship"
+	OkaySave = "Save Ship"
+	OkayBuy = "Buy Ship"
+	OkayPlaytest = "Playtest"
+	CrewCountFmt = "{0} crew"
+	ConfirmOverwrite = "Overwrite existing ship?"
+
+	RenameShip = "Rename"
+	RenameShipMsg = "Enter a new name for the ship:"
+	DeleteShip = "Delete"
+	ConfirmDeleteShipFmt = "Are you sure you wish to delete '{0}'?"
+
+	NewFolder = "New Folder"
+	NewFolderMsg = "Enter a name for the new folder:"
+	RenameFolder = "Rename Folder"
+	RenameFolderMsg = "Enter a new name for the folder:"
+	DeleteFolder = "Delete Folder"
+	DeleteFolderFmt = "Are you sure you wish to delete the <b>{0}</b> folder?"
+	OpenFolder = "Open Folder"
+
+	Organize = "Organize"
+
+	ImportError = "There was an error importing the requested ship: {0}"
+	ImportCustomName = "Please enter a name for this ship:"
+
+	SearchTip = "Filters the below ships to show only those whose name matches the text you type here."
+}
+
+Inputs
+{
+	DialogName = "Customize Controls"
+	PressKeyOrClick = "Press the key you would like to use, or click inside this box:"
+	Clear = "Clear"
+	Default = "Default"
+	Defaults = "Defaults"
+	None = "None"
+	ConfirmDefaults = "Are you sure you wish to reset all controls to their default settings?"
+
+	General
+	{
+		Name = "General"
+		UIClick = "U.I. Click"
+		UIAltClick = "U.I. Alternate Click"
+		UIFocusClick = "U.I. Focus Click"
+		Confirm = "Okay / Accept / Confirm"
+		Cancel = "Cancel / Back / Menu"
+		SuppressConfirmation = "Suppress Confirmations"
+		ToggleFullscreen = "Toggle Full-Screen"
+		TakeScreenshot = "Take Screenshot"
+		SubmitFeedback = "Send Feedback"
+		EmulateRightClick = "Emulate Right Click"
+	}
+
+	Game
+	{
+		Name = "Game"
+		Selection = "Ship/Part Selection"
+		SelectParts = "Select Parts"
+		AppendSelection = "Append Selection"
+		ShowCommandWidgets = "Show Command Handles"
+		WorldRelativeAttackAngle = "Use Grid-Relative Attack Angle"
+		Command = "Command Ship/Part"
+		UseTool = "Use Tool"
+		CancelTool = "Cancel Tool"
+		CancelWeaponTargets = "Cancel Weapon Targets"
+		ToggleMap = "Show/Hide Galaxy Map"
+		DoFtlJump = "Engage FTL Jump"
+		CancelFtlJump = "Cancel FTL Jump"
+		ToggleUI = "Toggle U.I."
+		Save = "Save Game"
+		Load = "Load Game"
+		QuickSave = "Quick-Save"
+		QuickLoad = "Quick-Load"
+		PauseToggle = "Pause / Unpause"
+		IncreaseSpeed = "Increase Speed"
+		DecreaseSpeed = "Decrease Speed"
+		SelectAllShips = "Select All Ships"
+		SelectAllParts = "Select All Parts"
+	}
+
+	PartToggles
+	{
+		on_off = "Toggle Part On/Off"
+		fire_mode = "Toggle Part Fire Mode"
+	}
+
+	View
+	{
+		Name = "View Controls"
+		PanLeft = "Pan Left"
+		PanRight = "Pan Right"
+		PanUp = "Pan Up"
+		PanDown = "Pan Down"
+		DragFocus = "Drag/Focus View"
+		ZoomIn = "Zoom In"
+		ZoomOut = "Zoom Out"
+		RotateRight = "Rotate Right"
+		RotateLeft = "Rotate Left"
+		ResetRotation = "Reset Rotation"
+		FocusCursorMode = "Focus Cursor Mode"
+		FocusSelected = "Focus Selected Ships/Parts"
+		RotationFocusSelected = "Focus & Lock Rotation"
+		FocusTargets = "Focus Targeted Enemy"
+		RotationFocusTargets = "Focus Enemy & Lock Rotation"
+		ToggleInteriors = "Toggle Ship Interiors"
+		ViewMinimap = "View Minimap"
+	}
+
+	Design
+	{
+		Name = "Ship Designer"
+		BuildOpen = "Open Build Panel"
+		BuildClose = "Close Build Panel"
+		ToggleBlueprints = "Toggle Blueprints"
+		PaintOpenClose = "Open/Close Paint Panel"
+		Construct = "Make It So"
+		EraseTool = "Delete Tool"
+		GrabTool = "Grab Tool"
+		SelectionTool = "Select/Copy/Paste Tool"
+		ToggleMirrorMode = "Toggle Mirror Mode"
+		SelectAll = "Select All Parts/Decals"
+		Delete = "Delete Parts/Decals"
+		DeleteDoors = "Delete Only Doors"
+		NoAutoDoors = "Don't Automatically Add Doors"
+		CopySelected = "Copy Selected Parts/Decals"
+		CutSelected = "Cut Selected Parts/Decals"
+		Paste = "Paste Parts/Decals"
+		EraseCursorMode = "Erase Cursor Mode"
+		FillPartsMode = "Fill Mode"
+		ImportPng = "Import PNG"
+		RotateLeft = "Rotate Parts/Decals Left"
+		RotateRight = "Rotate Parts/Decals Right"
+		FlipX = "Flip Parts/Decals Horiz."
+		FlipY = "Flip Parts/Decals Vert."
+		Undo = "Undo"
+		Redo = "Redo"
+	}
+
+	Parts
+	{
+		Name = "Ship Designer (Parts)"
+	}
+
+	Repair
+	{
+		Name = "Repairing"
+		OpenClose = "Open/Close Repair Panel"
+		RepairAll = "Repair All"
+		SuppressRepair = "Don't Repair (Build Instead)"
+	}
+
+	Crew
+	{
+		Name = "Crew"
+		OpenClose = "Open/Close Crew Panel"
+		FiveAtATime = "Hire/Fire 5 At A Time"
+	}
+
+	CreativeMode
+	{
+		Name = "Creative Mode"
+		DeleteShip = "Delete Selected Ships"
+		RandomizeAsteroid = "Randomize Asteroid"
+		PlayAsAllPlayers = "Play As: All Players"
+		PlayAsFmt = "Play As: Player {0}"
+		ShipLibrary = "Ship Library"
+		SpawnNotReady = "Spawn Without Ammo/Power"
+	}
+
+	ControlGroups
+	{
+		Name = "Control Groups"
+		SelectShipGroupFmt = "Select Ship Group {0}"
+		CreateShipGroupFmt = "Create Ship Group {0}"
+		SelectPartGroupFmt = "Select Part Group {0}"
+		CreatePartGroupFmt = "Create Part Group {0}"
+	}
+
+	MouseButtonNames
+	{
+		Left = "Left Click"
+		Middle = "Middle Click"
+		Right = "Right Click"
+		Button4 = "Mouse Button 4"
+		Button5 = "Mouse Button 5"
+	}
+
+	KeyNames
+	{
+		D0 = "0"
+		D1 = "1"
+		D2 = "2"
+		D3 = "3"
+		D4 = "4"
+		D5 = "5"
+		D6 = "6"
+		D7 = "7"
+		D8 = "8"
+		D9 = "9"
+		A = "A"
+		B = "B"
+		C = "C"
+		D = "D"
+		E = "E"
+		F = "F"
+		G = "G"
+		H = "H"
+		I = "I"
+		J = "J"
+		K = "K"
+		L = "L"
+		M = "M"
+		N = "N"
+		O = "O"
+		P = "P"
+		Q = "Q"
+		R = "R"
+		S = "S"
+		T = "T"
+		U = "U"
+		V = "V"
+		W = "W"
+		X = "X"
+		Y = "Y"
+		Z = "Z"
+		Quote = "Quote"
+		Backspace = "Backspace"
+		BackslashPipe = "Backslash"
+		CapsLock = "Caps Lock"
+		Colon = "Colon"
+		CommaLesser = "Comma"
+		Delete = "Delete"
+		DownArrow = "Down Arrow"
+		End = "End"
+		PlusEquals = "Plus"
+		Escape = "Escape"
+		F1 = "F1"
+		F2 = "F2"
+		F3 = "F3"
+		F4 = "F4"
+		F5 = "F5"
+		F6 = "F6"
+		F7 = "F7"
+		F8 = "F8"
+		F9 = "F9"
+		F10 = "F10"
+		F11 = "F11"
+		F12 = "F12"
+		F13 = "F13"
+		F14 = "F14"
+		F15 = "F15"
+		TildeBacktick = "Tilde"
+		Home = "Home"
+		Insert = "Insert"
+		LeftBracket = "Left Bracket"
+		Control = "Ctrl"
+		LeftArrow = "Left Arrow"
+		Alt = "Alt"
+		Shift = "Shift"
+		MinusUnderscore = "Minus"
+		NumLock = "Num Lock"
+		NumPad0 = "Num Pad 0"
+		NumPad1 = "Num Pad 1"
+		NumPad2 = "Num Pad 2"
+		NumPad3 = "Num Pad 3"
+		NumPad4 = "Num Pad 4"
+		NumPad5 = "Num Pad 5"
+		NumPad6 = "Num Pad 6"
+		NumPad7 = "Num Pad 7"
+		NumPad8 = "Num Pad 8"
+		NumPad9 = "Num Pad 9"
+		NumPadMinus = "Num Pad Minus"
+		NumPadPeriod = "Num Pad Dot"
+		NumPadPlus = "Num Pad Plus"
+		NumPadSlash = "Num Pad Slash"
+		NumPadStar = "Num Pad Star"
+		PageDown = "Page Down"
+		PageUp = "Page Up"
+		Pause = "Pause"
+		PeriodGreater = "Period"
+		RightBracket = "Right Bracket"
+		Enter = "Enter"
+		RightArrow = "Right Arrow"
+		ScrollLock = "Scroll Lock"
+		SlashQuestion = "Slash"
+		Space = "Space"
+		PrintScreen = "Print Screen"
+		Tab = "Tab"
+		UpArrow = "Up Arrow"
+		Command = "Command"
+		Apps = "Apps"
+		PlatformCmdCtrl = "<PlatformCmdCtrl/>"
+	}
+}
+
+Settings
+{
+	DisplayTab = "Display"
+	AudioTab = "Audio"
+	GameplayTab = "Gameplay"
+	InterfaceTab = "Interface"
+	MiscTab = "Misc"
+
+	WindowMode = "Window Mode"
+	WindowModeTip = "The style of window used to display the game."
+	ExclusiveFullScreen = "Exclusive Full Screen"
+	ExclusiveFullScreenTip = "The game will use your entire monitor and allow you to select the display resolution. "\
+	                         "This mode may be required to utilize some advanced GPU features such as G-SYNC and FreeSync."
+	ResizableWindow = "Resizable Window"
+	ResizableWindowTip = "The game will run in a window on your desktop. You may freely move and resize the window."
+	BorderlessFullScreen = "Borderless Full Screen"
+	BorderlessFullScreenTip = "The game will use your entire monitor and run at your current desktop resolution. "\
+	                          "Use this mode if Exclusive Full Screen causes problems or if you want to be able to quickly switch to other applications."
+
+	Monitor = "Monitor"
+	MonitorTip = "The monitor on which the game will be played while running in Borderless Full Screen or Exclusive Full Screen modes."
+
+	Resolution = "Resolution"
+	ResolutionTip = "The resolution at which the game will run when Exclusive Full Screen is selected above."
+	ResolutionFmt = "{0} x {1}"
+
+	RefreshRate = "Refresh Rate"
+	RefreshRateTip = "The number of frames the monitor will display every second."
+	RefreshRateFmt = "{0} hz"
+
+	VSync = "VSync"
+	VSyncTip = "Whether the game will be synchronized with your monitor's refresh rate, which eliminates tearing but increases input lag."
+	VSyncOff = "Off"
+	VSyncOffTip = "The game will not be synchronized with your monitor's refresh rate. It will run at the maximum possible frame rate and with minimal input lag."
+	VSyncOn = "On"
+	VSyncOnTip = "The game will be synchronized with your monitor's refresh rate. "\
+	             "This will eliminate screen tearing but will also limit the frame rate to your monitor's refresh rate and may increase input lag."
+	VSyncTriBuf = "On (Triple-Buffered)"
+	VSyncTriBufTip = "This variant of VSync may improve the frame rate but may also increase input lag."
+
+	HighDpi = "High D.P.I. Mode"
+	HighDpiTip = "If checked, the user interface and gameplay will be rendered at twice the normal scale. This can be useful when playing the game on high-resolution displays."
+	HighDpiDisabledTip = "The current window size or screen resolution is not large enough to support High D.P.I. Mode."
+
+	PerformanceGroup = "Performance Settings"
+
+	AnimateBackgrounds = "Animate Backgrounds"
+	AnimateBackgroundsTip = "If enabled, game backgrounds will be animated. Turning this off can significantly improve performance."
+
+	FancyParticles = "Fancy Particles"
+	FancyParticlesTip = "If enabled, additional particle effects will be rendered. Turning this off can improve performance."
+
+	LimitFps = "Limit Framerate"
+	LimitFpsTip = "If checked, the game will not run any faster than a particular framerate."
+	LimitFpsNumber = " Frames Per Second"
+	LimitFpsNumberTip = "The maximum number of frames to render per second."
+
+	MasterVol = "Master Vol."
+	MasterVolTip = "Controls the overall volume of all game sounds and music."
+	EffectsVol = "Effects Vol."
+	EffectsVolTip = "Controls the overall volume of all gameplay sound effects."
+	InterfaceVol = "Interface Vol."
+	InterfaceVolTip = "Controls the overall volume of all user interface sounds."
+
+	AutoSave = "Auto-Save"
+	AutoSaveTip = "If checked, the game will be automatically saved at regular intervals."
+	AutoSaveEvery = "Every "
+	AutoSaveEveryMinutes = " minutes"
+	AutoSaveEveryMinutesTip = "The number of minutes that must elapse since the last save before the game will auto-save."
+
+	FtlAutoSave = "Auto-Save Before FTL Jump"
+	FtlAutoSaveTip = "If checked, the game will be automatically saved before an FTL jump is made."
+
+	AutoFtlJump = "Automatically Engage FTL"
+	AutoFtlJumpTip = "If checked, the FTL drives will be automatically engaged once all ships are ready to jump."
+
+	ScreenShake = "Screen Shake"
+	ScreenShakeTip = "If checked, then some in-game events such as explosions will cause the screen to shake."
+
+	OnShipIndicators = "On-Ship Indicators"
+	OnShipIndicatorsTip = "If checked, displays on-ship indicators such as no-crew, no-ammo, and no-power."
+
+	LostFocusPause = "Pause When Window Loses Focus"
+	LostFocusPauseTip = "If checked, the game will automatically pause when the user clicks outside of or alt-tabs away from the game."
+
+	ShowTutorials = "Show Tutorials"
+	ShowTutorialsTip = "If checked, \"How to Play\" tutorials will be displayed during gameplay."
+	ResetTutorials = "Reset Tutorials"
+	ConfirmResetTutorials = "This will cause all tutorials to be displayed again."
+
+	Language = "Language"// This is very meta!
+	LanguageTip = "The language to use for the user interface. Additional translations can be found at http://forum.cosmoteer.net/"
+
+	LockCursor = "Trap Mouse Cursor"
+	LockCursorTip = "If checked, then the mouse cursor won't be able to leave the game window during gameplay. "\
+	                "If playing in an Exclusive Full Screen window, then the cursor won't leave the window regardless of whether this option is selected."
+
+	ViewGroup = "View Controls"
+	ShipControlsGroup = "Ship Controls"
+	BuildGroup = "Building"
+	PaintGroup = "Painting"
+	RepairGroup = "Repairing"
+	MiniviewGroup = "Picture-In-Picture"
+	OtherGroup = "Other"
+
+	CustomizeControls = "Edit Controls"
+
+	CustomizeColors = "Edit Colors"
+
+	EdgePan = "Edge Pan"
+	EdgePanTip = "Whether or not and how the view can be panned by moving the mouse cursor to the edge of the screen."
+	EdgePanNone = "Disabled"
+	EdgePanNoneTip = "The view will not pan when you move the mouse cursor to the edge of the screen. It can still be panned using the arrow keys or the middle mouse button."
+	EdgePanAnalog = "Analog"
+	EdgePanAnalogTip = "When moving the mouse cursor to the edge of the screen, the view will pan in the exact direction drawn from the center of the screen to the mouse cursor."
+	EdgePanEightWay = "Eight-Way"
+	EdgePanEightWayTip = "When moving the mouse cursor to the edge of the screen, the view will pan in only one of eight "\
+	                     "directions depending on which side or corner the mouse cursor is touching."
+
+	EdgePanSpeed = "Edge Pan Speed"
+	EdgePanSpeedTip = "Controls how fast the view will pan when moving the mouse cursor to the edge of the screen."
+
+	KeyPanSpeed = "Key Pan Speed"
+	KeyPanSpeedTip = "Controls how fast the view will pan pressing the arrow keys."
+
+	KeyZoomSpeed = "Key Zoom Speed"
+	KeyZoomSpeedTip = "Controls how fast the view will zoom in and out when using the +/- keys."
+
+	KeyRotSpeed = "Key Rotation Speed"
+	KeyRotSpeedTip = "Controls how fast the view will rotate when using the [ and ] keys."
+
+	WheelZoomSpeed = "Wheel Zoom Speed"
+	WheelZoomSpeedTip = "Controls how fast the view will zoom in and out when using the mouse scroll wheel."
+
+	InvertWheelZoom = "Invert Mouse Wheel Zoom"
+	InvertWheelZoomTip = "If checked, the direction when zooming using the mouse scroll wheel will be reversed."
+
+	WheelZoomAtCursor = "Mouse Wheel Zoom at Cursor"
+	WheelZoomAtCursorTip = "If checked, then zooming the view using the mouse wheel will zoom in and out of the mouse cursor. "\
+	                       "If not checked, it will zoom in and out of the center of the screen."
+
+	StickyFocus = "Sticky Ship Focus"
+	StickyFocusTip = "When focusing the view on a ship, the view will \"stick\" to the ship even after panning the view. "\
+	                 "Focus will un-stick once the center of the view is moved outside the ship's circle."
+
+	BuildAutoFocus = "Auto Focus on Ship"
+	BuildAutoFocusTip = "If checked, then opening the build panel will automatically focus the view on the selected ship."
+
+	BuildAutoRotate = "Auto Rotate to Ship"
+	BuildAutoRotateTip = "If checked, then opening the build panel will automatically rotate the view to match the selected ship."
+
+	BuildAutoInterior = "Auto Show Ship Interior"
+	BuildAutoInteriorTip = "If checked, then opening the build panel will automatically show the ship's interior."
+
+	BuildAllowOverwrite = "Overwrite Existing Parts"
+	BuildAllowOverwriteTip = "If checked, then trying to add a part to a ship where another part already exists will overwrite the existing part."
+
+	GrabLeavesCorridors = "Grab Leaves Corridors"
+	GrabLeavesCorridorsTip = "When a part is \"picked up\" using the Grab Hand, corridor tiles will be left behind in its place."
+
+	BuildAutoDoors = "Automatically Add Doors"
+	BuildAutoDoorsTip = "If checked, then doors will automatically be added when adding a part to a ship."
+ 
+	BuildEnforceCrewAccess = "Enforce Crew Access"
+	BuildEnforceCrewAccessTip = "If checked, then you will be unable to add new parts in locations that can't be accessed by your ship's crew. "\
+	                            "This setting has no effect if <b>Automatically Add Doors</b> is disabled or when editing a ship's blueprints."
+
+	AutoHireCrew = "Automatically Hire Crew"
+	AutoHireCrewTip = "If checked, then building or repairing a part that provides beds for crew will automatically hire those crew."
+
+	BlueprintAutoPause = "Auto Pause in Blueprint Mode"
+	BlueprintAutoPauseTip = "If checked, then opening the blueprints panel will automatically pause the game."
+
+	DefaultBuildTool = "Default Tool"
+	DefaultBuildToolTip = "The default tool to select when opening the build panel."
+	BuildGrabTool = "Grab Tool"
+	BuildGrabToolTip = "The \"Grab Tool\" will be the default when opening the build panel."
+	BuildSelectTool = "Select Tool"
+	BuildSelectToolTip = "The \"Select Tool\" will be the default when opening the build panel."
+
+	PaintAutoFocus = "Auto Focus on Ship"
+	PaintAutoFocusTip = "If checked, then opening the paint panel will automatically focus the view on the selected ship."
+
+	PaintAutoRotate = "Auto Rotate to Ship"
+	PaintAutoRotateTip = "If checked, then opening the paint panel will automatically rotate the view to match the selected ship."
+
+	PaintAllowOverwrite = "Overwrite Existing Decals"
+	PaintAllowOverwriteTip = "If checked, then trying to add a decal to a ship where another decal already exists will overwrite the existing decal."
+
+	DefaultPaintTool = "Default Tool"
+	DefaultPaintToolTip = "The default tool to select when opening either of the 'Decals' tabs of the paint panel."
+	PaintGrabTool = "Grab Tool"
+	PaintGrabToolTip = "The \"Grab Tool\" will be the default when opening the paint panel."
+	PaintSelectTool = "Select Tool"
+	PaintSelectToolTip = "The \"Select Tool\" will be the default when opening the paint panel."
+
+	RepairAutoFocus = "Auto Focus on Ship"
+	RepairAutoFocusTip = "If checked, then opening the repairs panel will automatically focus the view on the selected ship."
+
+	RepairAutoRotate = "Auto Rotate to Ship"
+	RepairAutoRotateTip = "If checked, then opening the repairs panel will automatically rotate the view to match the selected ship."
+
+	RepairAutoDoors = "Automatically Rebuild Doors"
+	RepairAutoDoorsTip = "If checked, then rebuilding a destroyed part will automatically rebuild any connecting doors as well."
+
+	PartToolTips = "Show Ship Part Tool-Tips"
+	PartToolTipsTip = "If checked, then information will be displayed after briefly pausing the mouse cursor over a ship's part."
+
+	AllowShipDeselection = "Allow Ship Deselection"
+	AllowShipDeselectionTip = "If checked, then left-clicking on empty space will deselect any currently-selected ships."
+
+	EasyPartSelection = "Easy Part Selection"
+	EasyPartSelectionTip = "If checked, then holding the <btn id='Game.SelectParts'/> key will not be required to select parts."
+
+	AlwaysShowCommandWidgets = "Always Show Command Handles"
+	AlwaysShowCommandWidgetsTip = "If checked, you will not have to hold the <btn id='Game.AppendSelection'/> key to display command adjustment handles."
+
+	PreferWorldRelativeAttackAngle = "Prefer Grid-Relative Attack Angles"
+	PreferWorldRelativeAttackAngleTip = "If checked, right-clicking and dragging on an enemy ship will use an attack angle relative to the background grid instead of the enemy ship. Hold <btn id='Game.WorldRelativeAttackAngle'/> to use the other mode."
+
+	MiniviewCombatModeLbl = "In Combat"
+	MiniviewCombatModeLblTip = "Choose if and when the picture-in-picture is displayed during combat."
+	MiniviewNonCombatModeLbl = "Not In Combat"
+	MiniviewNonCombatModeLblTip = "Choose if and when the picture-in-picture is displayed when not in combat."
+	MiniviewLockRotation = "Lock Ship Rotation"
+	MiniviewLockRotationTip = "If checked, the picture-in-picture will rotate to match the displayed ship."
+	MiniviewCombatMode
+	{
+		DontShow = "Don't Show"
+		DontShowTip = "When in combat, the picture-in-picture will not be displayed."
+		ShowPlayer = "Show Player Ship"
+		ShowPlayerTip = "When in combat, always displays the player's ship."
+		ShowEnemy = "Show Enemy Ship"
+		ShowEnemyTip = "When in combat, always displays the enemy ship."
+		Auto = "Auto"
+		AutoTip = "When in combat, displays whichever ship isn't being looked at with the main view."
+	}
+	MiniviewNonCombatMode
+	{
+		DontShow = "Don't Show"
+		DontShowTip = "When not in combat, the picture-in-picture will not be displayed."
+		ShowPlayer = "Show Player Ship"
+		ShowPlayerTip = "When not in combat, always displays the player's ship."
+		Auto = "Auto"
+		AutoTip = "When not in combat, displays the player's ship when it isn't being looked at with the main view."
+	}
+
+	NewVersionCheck = "Check For New Versions"
+	NewVersionCheckTip = "If checked, then the game will automatically check for newly-released versions on startup."
+
+	ShowFps = "Show F.P.S."
+	ShowFpsTip = "Whether and where the Frames Per Second should be displayed."
+	FpsNone = "Off"
+	FpsNoneTip = "Do not show F.P.S."
+	FpsInCorner = "On (In Corner)"
+	FpsInCornerTip = "Displays the F.P.S. in the upper-left corner of the screen."
+	FpsFollowsCursor = "On (Near Cursor)"
+	FpsFollowsCursorTip = "Displays the F.P.S. near the mouse cursor."
+
+	SendMetrics = "Send Anonymous Metrics"
+	SendMetricsTip = "If checked, completely anonymous gameplay metrics will be sent to the developer."
+	SendMetricsDesc = "By default, Cosmoteer sends a small amount of <b>completely anonymous</b> gameplay statistics to us "\
+	                  "so that we can improve the game and fix bugs. This data contains <i>absolutely no personally-identifiable information</i>."\
+	                  "Most games do this without telling you, but we're telling you and giving you the option to turn it off by clicking the button below. "\
+	                  "But please consider leaving this on so that we can make Cosmoteer the best game possible."
+
+	SettingsChanged = "The display settings have been changed. Do you want to keep the new settings?"
+	KeepSettings = "Keep"
+	RevertSettings = "Revert"
+}
+
+ColorSettings
+{
+	Description = "If you are having difficulty telling the difference between certain colors, try changing them here to make them easier to distinguish."
+	Friendly = "Friendly"
+	Enemy = "Enemy"
+	Neutral = "Neutral"
+	Reset = "Default"
+}
+
+Mods
+{
+	DialogName = "Mods Manager"
+	ModOnFmt = "{0} <good>(ON)</good>"
+	ModOffFmt = "{0} <bad>(OFF)</bad>"
+	VersionFmt = "Version {0}"
+	AuthorFmt = "By {0}"
+	ModLoadError = "Error loading mod {0}: {1}"
+	RestartInfo = "You must restart Cosmoteer for any mod changes to take effect."
+	InstallMod = "Install Mod..."
+	OverwriteConfirm = "A mod with that name is already installed. Do you want to overwrite it?"
+	ModInstalled = "Mod successfully installed! You must turn it on before it will take effect."
+	ShowFolder = "Show Folder"
+	FindMods = "Find Mods"
+	FindTranslations = "Find Translations"
+	UninstallMod = "Uninstall Mod"
+	UninstallConfirm = "Are you sure you wish to uninstall this mod?"
+	UninstallComplete = "Mod successfully uninstalled."
+	CreatePackage = "Create Mod Package";
+	CreatePackageSuccessful = "Mod package saved!";
+}
+
+LoadPaintScheme
+{
+	Title = "Load Paint Scheme"
+	Okay = "Load"
+	Delete = "Delete"
+	ConfirmDelete = "Are you sure you wish to delete this paint scheme?"
+}
+
+Feedback
+{
+	Title = "Send Feedback"
+	Desc = "Please describe your feedback or bug in as much detail as possible."
+	Submit = "Submit Feedback"
+	Email = "Your email address (optional):"
+	Hint = "Hint: You can send feedback at any time by pressing <btn id='General.SubmitFeedback'/>."
+	Sending = "Sending feedback..."
+	Error = "There was an error sending the feedback."
+}
+
+VersionCheck
+{
+	NewVersionMsg = "A new version of Cosmoteer has been released!"
+	DownloadInstall = "Download &amp; Install"
+	ReleaseNotes = "View Release Notes"
+	ProgressFmt = "Downloading update... {0}%"
+	ErrorFmt = "Error downloading update: {0}"
+	ConfirmInstall = "The download has completed. Close Cosmoteer and install the update?"
+}
+
+ShipLibraries
+{
+	Saved = "My Ships"
+	Bounty = "Built-In Ships"
+	Misc = "Misc Ships"
+}
+
+ShipClasses
+{
+	Terran = "Terran"
+	Asteroid = "Asteroid"
+}
+
+BountyMode
+{
+	BountyCompleted = "TARGET DEFEATED"
+	BuyShipTip = "Purchase another ship."
+	SellShip = "Sell"
+	SellShipTip = "Sells this ship, giving you <money>₡ credits</money> in return."
+	NoSellCombat = "Cannot sell a ship during combat."
+	SellConfirmFmt = "Are you sure you wish to sell the <u>{0}</u>?"
+	Sell = "SELL"
+	NotInSight = "<bad>Must be within sight of your ships!</bad>"
+	EnemyTooClose = "<bad>Too close to the enemy!</bad>"
+	BuyFuel = "Buy"
+	BuyFuelDialogFmt = "Buy <b>{0}</b> for {1}?"
+	FuelDebtFmt = "Refueling will cost <ins_money>{0}</ins_money> but you only have {1}. "\
+	              "You can go into debt to refuel, but while in debt you will not be able to buy any additions for your ship."
+	BuyShipIllegalClass = "That class of ship cannot be purchased."
+
+	MapNodeFlyOut
+	{
+		EnemiesFmt = "Enemies: <b>{0}x</b>"
+		EnemiesNone = "Enemies: <b>None</b>"
+	}
+
+	ThreatLevels
+	[
+		"<color r=\"255\" g=\"255\" b=\"0\">Amateur</color>"
+		"<color r=\"255\" g=\"191\" b=\"0\">Professional</color>"
+		"<color r=\"255\" g=\"127\" b=\"0\">Veteran</color>"
+		"<color r=\"255\" g=\"63\" b=\"0\">Elite</color>"
+		"<color r=\"255\" g=\"0\" b=\"0\">Vanguard</color>"
+	]
+}
+
+CreativeMode
+{
+	NewShip = "New Ship"
+	ShipLibrary = "Ship Library"
+
+	RemoveShip = "Remove"
+	RemoveShipTip = "Removes the selected ship(s) from the game.\n\nHotkey: <btn id='CreativeMode.DeleteShip'/>\nHold <btn id='General.SuppressConfirmation'/> to suppress confirmation."
+	ConfirmRemoveShip = "Remove selected ship(s) from the game? This cannot be undone."
+	RemoveShipOkay = "Remove"
+
+	SavedShips
+	{
+		CrewCountFmt = "{0} crew"
+	}
+
+	RandomShips
+	{
+		Title = "Procedural Ships"
+	}
+
+	Doodads
+	{
+		Title = "Doodads"
+		AsteroidsGroup = "Asteroids"
+		CategoryTip = "A category. Click to expand or collapse."
+	}
+
+	PlayAs
+	{
+		Title = "Play As..."
+		Tip = "Change which player you control."
+		PlayerIndexFmt = "Player {0}"
+		PlayerIndexTipFmt = "Enables you to control the ships of Player {0}.\n\nNewly-placed ships will be given to Player {0}."
+		AllPlayers = "All Players"
+		AllPlayersTipFmt = "Enables you to control the ships of all players.\n\nNewly-placed ships will be given to Player 1."
+	}
+
+	Ai
+	{
+		Title = "A.I."
+		None = "None"
+		TipFmt = "Assign the '{0}' A.I. to the selected ship(s)."
+	}
+
+	Allegiance
+	{
+		Title = "Allegiance"
+		PlayerIndexFmt = "Player {0}"
+		PlayerIndexTipFmt = "Sets the allegiance of the selected ship(s) to Player {0}."
+		Neutral = "Neutral"
+		NeutralTip = "Neutral ships are friends with all other ships, except for barbarians."
+		Barbarian = "Barbarian"
+		BarbarianTip = "\"Barbarian\" ships are enemies with all other ships, including other barbarian ships, except for junk ships."
+		Junk = "Junk"
+		JunkTip = "Junk ships are not enemies with any other ships, but are considered expendable when in the line of fire."
+	}
+}
+
+GameMenu
+{
+	NewGame = "New Game"
+	NewGameTip = "Start a new game from the beginning."
+	SaveGame = "Save Game"
+	SaveGameTip = "Save the current game progress to a file."
+	CantSaveGameTip = "The game cannot currently be saved."
+	LoadGame = "Load Game"
+	LoadgameTip = "Load an in-progress game from a file."
+	Tutorials = "How to Play"
+	TutorialsTip = "Displays the game manual."
+	Settings = "Settings"
+	SettingsTip = "Adjust various game settings."
+	Feedback = "Send Feedback"
+	FeedbackTip = "Send written feedback to the game developer."
+	Quit = "Quit Game"
+	QuitTip = "Quit the current in-progress game."
+	Resume = "Resume"
+	ResumeTip = "Close this menu."
+	ConfirmNewGame = "Start a new game? Any unsaved progress in the current game will be lost."
+	ConfirmLoadGame = "Load a saved game? Any unsaved progress in the current game will be lost."
+	ConfirmQuit = "Quit the game? Any unsaved progress will be lost."
+	QuitToMenu = "Quit to Menu"
+	QuitToDesktop = "Quit to Desktop"
+}
+
+Hud
+{
+	Menu = "Menu"
+	MenuTip = "Pause the game and display the menu.\n\nHotkey: <btn id='General.Cancel'/>"
+
+	MapTip = "Show/hide the galaxy map."
+
+	Paused = "PAUSED"
+	PauseTip = "Pause\n\nHotkey: <btn id='Game.PauseToggle'/>"
+	DecreaseSpeedTip = "Decrease Game Speed\n\nHotkey: <btn id='Game.DecreaseSpeed'/>"
+	IncreaseSpeedTip = "Increase Game Speed\n\nHotkey: <btn id='Game.IncreaseSpeed'/>"
+	SpeedPaused = "--"
+	SpeedQuarter = "¼"
+	SpeedHalf = "½"
+	Speed1 = "1x"
+	Speed2 = "2x"
+	Speed4 = "4x"
+
+	ClickToFocus = "Click to focus.\n\nHotkey: <btn id='View.FocusSelected'/>"
+	ClickToSelect = "Click to select."
+	ClickToRename = "Click to rename this ship."
+
+	SelfDestruct = "Self Destruct"
+	SelfDestructTip = "Initiates the self-destruct sequence."
+	ConfirmSelfDestruct = "Destroy the selected ship(s)? This is irreversible!"
+	SelfDestructOkay = "DESTROY!!"
+
+	DiagonalFlight = "Allow Diagonal Flight"
+	DiagonalFlightTip = "If checked, the ship may choose to fly diagonally if that's the fastest way to fly."
+
+	BuildTip = "<b>Build</b>\n\nModify the designs of your ships.\n\nHotkey: <btn id='Design.BuildOpen'/>"
+	PaintTip = "<b>Paint</b>\n\nPaint your ship's exterior and apply decals.\n\nHotkey: <btn id='Design.PaintOpenClose'/>"
+	RepairTip = "<b>Repairs</b>\n\nRepair damage to your ships.\n\nHotkey: <btn id='Repair.OpenClose'/>  (Hold <btn id='Repair.SuppressRepair'/> to access Build.)"
+	CrewTip = "<b>Crew</b>\n\nManage the crew complement of your ships.\n\nHotkey: <btn id='Crew.OpenClose'/>"
+	InteriorTip = "Toggle ship interiors on and off.\n\nHotkey: <btn id='View.ToggleInteriors'/>"
+	CancelPartSelectTip = "Cancel part control and return to ship control.\n\nHotkey: <btn id='General.Cancel'/>"
+	CancelTargetTip = "Cancel weapon target(s).\n\nHotkey: <btn id='Game.CancelWeaponTargets'/>"
+
+	MoneyTip = "Intergalactic Credits"
+	FtlFuelFmt = "{0} <gray><s16>/ {1}</s16></gray>"
+	FtlFuelTip = "FTL Fuel"
+
+	FtlGuiTitle = "Spinning up FTL Drives..."
+	FtlStatusPercentFmt = "{0:0}%"
+	FtlStatusReady = "<good>READY</good>"
+	FtlStatusCanceled = "<bad><s12>STAYING</s12></bad>"
+	FtlStatusNoFtl = "<bad>NO FTL</bad>"
+	FtlDoJumpFmt = "ENGAGE<s6>\n\n</s6>{0}"
+	FtlDoJumpTip = "All ships that are <good>READY</good> will jump to the destination sector.\n\nHotkey: <btn id='Game.DoFtlJump'/>"
+	FtlCancelJump = "Cancel"
+	FtlCancelJumpTip = "All ships will spin down their FTL drives and the jump will be canceled.\n\nHotkey: <btn id='Game.CancelFtlJump'/>"
+	FtlShipsNotReady = "Not all ships are ready to make an FTL jump. Jump anyway and leave those ships behind?"
+
+	SelectSingleShip = "Select a single ship."
+	NoTargetsToCancel = "No weapon targets to cancel."
+	NoControlRoom = "Cannot issue commands without a control room."
+	CantBuildInDebt = "Cannot build while in debt."
+	CantBuildNeedsRepair = "Cannot build while your ship needs major repairs."
+	CantBuildInCombat = "Cannot build during combat."
+	NoRepairsNeeded = "No repairs needed."
+	CantRepairInCombat = "Cannot repair during combat or when the ship is on fire."
+
+	ShipWeightFmt = "Mass: <b>{0:.0} Tonnes</b>"
+	ShipWeightTip = "The total mass of this ship, indicating its approximate size."
+	ShipCrewFmt = "Crew: <b>{0} Souls</b>"
+	ShipCrewTip = "The number of living crew aboard this ship."
+	ShipValueFmt = "Value: <money><b>{0}</b></money>"
+	ShipValueTip = "The total monetary value of this ship, as calculated by the cost to build it and hire its crew minus any necessary repairs."
+
+	RenameShip = "Rename Ship"
+	RenameShipTip = "Change the name of your ship!"
+	RenameShipPrompt = "\"What should we christen her, captain?\""
+
+	SaveShip = "Save Ship Design"
+	SaveShipTip = "Save the ship's blueprints and paint design to a file so that they can be loaded later."
+
+	Screenshot = "Screenshot"
+	ScreenshotExterior = "Exterior"
+	ScreenshotExteriorTip = "Take a screenshot of the ship's exterior and save it to a file."
+	ScreenshotExteriorFilenameFmt = "{0} (Exterior).png"
+	ScreenshotInterior = "Interior"
+	ScreenshotInteriorTip = "Take a screenshot of the ship's interior floor plan and save it to a file."
+	ScreenshotInteriorFilenameFmt = "{0} (Interior).png"
+	ScreenshotBlueprints = "Blueprints"
+	ScreenshotBlueprintsTip = "Take a screenshot of the ship's blueprints and save it to a file."
+	ScreenshotBlueprintsFilenameFmt = "{0} (Blueprints).png"
+
+	DistFmt = "{0:0.00}km"
+
+	DebtOkay = "Go Into Debt"
+
+	MiniviewResizerTip = "Drag to resize."
+
+	UnknownContact = "Unknown Contact"
+}
+
+BuildBox
+{
+	Undo = " Undo "
+	UndoTip = "Undoes the last change made to the selected ship.\n\nHotkey: <btn id='Design.Undo'/>"
+	Redo = " Redo "
+	RedoTip = "Redoes the last change made to the selected ship.\n\nHotkey: <btn id='Design.Redo'/>"
+	EditBlueprintsTip = "<b>Blueprint Mode</b>\n\nAllows you to make temporary invalid or unaffordable changes to your ship's design.\n\n"\
+	                    "Hotkey: <btn id='Design.ToggleBlueprints'/>"
+	InsufficientFunds = "INSUFFICIENT FUNDS"
+	Power = "Power"
+	Crew = "Crew"
+	FtlEfficiency = "FTL Drive Efficiency"
+	StatBarTipFmtMinIdeal = "<s20><b>{0}</b></s20>\n<bad>Minimum: <b>{1}</b></bad>\n<good>Recommended: <b>{2}</b></good>"
+	StatBarTipFmt = "<s20><b>{0}</b></s20>"
+	Construct = "MAKE IT SO"
+	Discard = "Discard Modifications"
+	DiscardTip = "Discards any changes made to the ship's blueprints that have not yet been committed."
+	CantDiscardTip = "Nothing to discard."
+	Clear = "Clear Blueprints"
+	ClearTip = "Clears all existing blueprints so you can start designing from scratch."
+	Recenter = "Recenter Blueprints"
+	RecenterTip = "Moves the ship's blueprints to the center of the construction grid."
+	CantRecenterTip = "Blueprints are already centered."
+	CantClearTip = "Nothing to clear."
+	SaveShip = "Save Ship Design"
+	SaveShipTip = "Save the ship's blueprints and paint design to a file so that they can be loaded later."
+	LoadShip = "Load Ship Design"
+	LoadShipTip = "Replaces the current blueprints with one loaded from a previously-saved file."
+	ImportPng = "Load Shape From PNG"
+	ImportPngTip = "Loads the basic shape of the ship as Corridor tiles from a custom PNG file."
+	ImportPngInstructions = "This will replace the current blueprints (if any) with a basic shape loaded from a custom PNG file. "\
+	                        "Every non-transparent pixel (alpha > 0) will be interpreted as a Corridor tile. "\
+	                        "Press Okay to choose a PNG image file."
+	ImportPngFileType = "PNG image files (*.png)"
+	GrabTip = "<b>Grab Tool</b>\n\nWhen selected, clicking on a ship's part will grab it and put it in hand so that you can place it elsewhere.\n\nHotkey: <btn id='Design.GrabTool'/>"
+	RemoveTip = "<b>Delete Tool</b>\n\nWhen selected, clicking on a ship's part will remove that part and give a partial refund.\n\nHotkey: <btn id='Design.EraseTool'/>\n\nHold <btn id='Design.EraseCursorMode'/> to temporarily switch to this tool."
+	SelectTip = "<b>Select Tool</b>\n\nWhen selected, drag a box around any parts you want to copy, cut, paste, mirror, rotate, or remove.\n\nHotkey: <btn id='Design.SelectionTool'/>"
+	MirrorToggleTip = "<b>Mirror Mode</b>\n\nWhen turned on, changes to the ship's design will be mirrored across the ship's centerline.\n\nHotkey: <btn id='Design.ToggleMirrorMode'/>"
+	HireCrewTip = "Hire crew to fill empty beds. If you have more crew than beds, the extra crew will always be fired."
+	NumCrewTip = "The number of crew to hire."
+	UncomittedModifications = "There are uncomitted modifications to this ship's blueprints. Are you sure you wish to discard these modifications?"
+	DiscardModifications = "Discard Modifications"
+	MustRepair = "This ship has taken damage and has parts that must be repaired before it can be modified."
+	MustRepairContinue = "This ship has taken damage and has parts that must be repaired before continuing."
+	Repair = "REPAIR"
+	CantModifyInDebt = "Cannot modify this ship while in debt."
+	CantModifyInCombat = "Cannot modify this ship during combat."
+	CantUndoInCombat = "Can't undo during combat."
+	CantRedoInCombat = "Can't redo during combat."
+	NothingToUndo = "Nothing to undo."
+	NothingToRedo = "Nothing to redo."
+	NoWorkNeeded = "NO WORK NEEDED"
+	NoWorkNeededTip = "There is no work to be done!"
+	BlueprintsInvalidTip = "The ship's blueprints are invalid!"
+	CantBuildInCombatTip = "Can't build during combat!"
+	FireCrewFmt = " Fire {0} Crew: {1}"
+	HireCrewFmt = " Hire {0} Crew: {1}"
+	ConfirmClose = "Closing the build interface before the ship is actually constructed will cause you to lose your blueprint design. Are you sure you wish to close the build interface? "\
+	               "(Click the <b>Make It So</b> button to construct a ship from your blueprint design.)"
+
+	RotateLeftTip = "Rotate counter-clockwise.\n\nHotkey: <btn id='Design.RotateLeft'/>"
+	RotateRightTip = "Rotate clockwise.\n\nHotkey: <btn id='Design.RotateRight'/>"
+	FlipXTip = "Flip horizontally.\n\nHotkey: <btn id='Design.FlipX'/>"
+	FlipYTip = "Flip vertically.\n\nHotkey: <btn id='Design.FlipY'/>"
+	CantRotateTip = "The selected part can't be rotated."
+	DeletePartTip = "Deletes the held part.\n\nHotkey: <btn id='Design.Delete'/>"
+
+	CopyTip = "Copy selected parts.\n\nHotkey: <btn id='Design.CopySelected'/>"
+	CutTip = "Cut (copy and remove) selected parts.\n\nHotkey: <btn id='Design.CutSelected'/>"
+	DeleteTip = "Delete selected parts.\n\nHotkey: <btn id='Design.Delete'/> (or <btn id='Design.DeleteDoors'/> to delete only the doors)"
+	PasteTip = "Paste copied parts.\n\nHotkey: <btn id='Design.Paste'/>"
+	CancelPasteTip = "Cancel and return to selection mode.\n\nHotkey: <btn id='General.Cancel'/>"
+	NoPartsSelected = "No parts selected."
+	NoPartsCopied = "No parts have been copied yet."
+	CantRemoveSelected = "The selected parts cannot be removed."
+
+	PartCrewFmt = "{0} crew"
+	PartToHireCrewFmt = " + <money>{0}</money> to hire {1} crew"
+	PartHotkeyFmt = "Hotkey: <b>{0}</b>"
+
+	InvalidReasons
+	{
+		NotContiguous = "<bad>Not connected</bad>"
+		ProhibitedZones = "<bad>Prohibited area</bad>"
+		MaxBordersExceeded = "<bad>Outside of grid</bad>"
+		CategorySlotsExceeded = "<bad>Too many parts of this type</bad>"
+		ExistingPart = "<bad>Existing part</bad>"
+		NoCrewAccess = "<bad>No crew access</bad>"
+	}
+}
+
+PaintBox
+{
+	PaintTab = "PAINT"
+	Decals1Tab = "DECALS LOW"
+	Decals2Tab = "DECALS HIGH"
+	CrewTab = "CREW"
+
+	Undo = " Undo "
+	UndoTip = "Undoes the last change made to the selected ship's paint design.\n\nHotkey: <btn id='Design.Undo'/>"
+	Redo = " Redo "
+	RedoTip = "Redoes the last change made to the selected ship's paint design.\n\nHotkey: <btn id='Design.Redo'/>"
+	NothingToUndo = "Nothing to undo."
+	NothingToRedo = "Nothing to redo."
+
+	Clear = "Clear"
+	ClearAll = "All Decals"
+	ClearAllTip = "Clears all decals so you can start painting from scratch."
+	Clear1 = "Decals Low"
+	Clear1Tip = "Clears all decals in 'Decals Low' so you can start painting from scratch."
+	Clear2 = "Decals High"
+	Clear2Tip = "Clears all decals in 'Decals High' so you can start painting from scratch."
+	NothingToClear = "Nothing to clear."
+
+	Swap = "Swap"
+	SwapDecals = "Decals Only"
+	SwapDecalsTip = "Swaps the decals in 'Decals Low' and 'Decals High' but not the colors."
+	SwapColors = "Colors Only"
+	SwapColorsTip = "Swaps the colors of 'Decals Low' and 'Decals High' but not the decals."
+	SwapBoth = "Decals & Colors"
+	SwapBothTip = "Swaps both the colors and decals of 'Decals Low' and 'Decals High'."
+	NothingToSwap = "Nothing to swap."
+
+	SaveShip = "Save Ship Design"
+	SaveShipTip = "Save the ship's blueprints and paint design to a file so that they can be loaded later."
+	LoadPaint = "Load Paint Design"
+	LoadPaintTip = "Replaces the current paint design with one loaded from a previously-saved file."
+	SavePaintScheme = "Save Paint Scheme"
+	SavePaintSchemeTip = "Saves the ship's paint colors and pattern so that they can be used on other ships."
+	LoadPaintScheme = "Load Paint Scheme"
+	LoadPaintSchemeTip = "Replaces the current paint scheme with a previously-saved paint scheme."
+	PaintSchemeSaved = "Paint scheme saved."
+
+	GrabTip = "<b>Grab Tool</b>\n\nWhen selected, clicking on a decal will grab it and put it in hand so that you can place it elsewhere.\n\nHotkey: <btn id='Design.GrabTool'/>"
+	RemoveTip = "<b>Delete Tool</b>\n\nWhen selected, clicking on a decal will remove it.\n\nHotkey: <btn id='Design.EraseTool'/>\n\nHold <btn id='Design.EraseCursorMode'/> to temporarily switch to this tool."
+	SelectTip = "<b>Select Tool</b>\n\nWhen selected, drag a box around any decals you want to copy, cut, paste, mirror, rotate, or remove.\n\nHotkey: <btn id='Design.SelectionTool'/>"
+	MirrorToggleTip = "<b>Mirror Mode</b>\n\nWhen turned on, changes to the ship's decals will be mirrored across the ship's centerline.\n\nHotkey: <btn id='Design.ToggleMirrorMode'/>"
+
+	RotateLeftTip = "Rotate counter-clockwise.\n\nHotkey: <btn id='Design.RotateLeft'/>"
+	RotateRightTip = "Rotate clockwise.\n\nHotkey: <btn id='Design.RotateRight'/>"
+	FlipXTip = "Flip horizontally.\n\nHotkey: <btn id='Design.FlipX'/>"
+	FlipYTip = "Flip vertically.\n\nHotkey: <btn id='Design.FlipY'/>"
+	DeleteDecalTip = "Deletes the held decal.\n\nHotkey: <btn id='Design.Delete'/>"
+
+	CopyTip = "Copy selected decals.\n\nHotkey: <btn id='Design.CopySelected'/>"
+	CutTip = "Cut (copy and remove) selected decals.\n\nHotkey: <btn id='Design.CutSelected'/>"
+	DeleteTip = "Delete selected decals.\n\nHotkey: <btn id='Design.Delete'/>"
+	PasteTip = "Paste copied decals.\n\nHotkey: <btn id='Design.Paste'/>"
+	CancelPasteTip = "Cancel and return to selection mode.\n\nHotkey: <btn id='General.Cancel'/>"
+	NoDecalsSelected = "No decals selected."
+	NoDecalsCopied = "No decals have been copied yet."
+}
+
+RepairBox
+{
+	Title = "Repairs"
+
+	RepairAll = "REPAIR ALL"
+	NoRepairsNeeded = "NO REPAIRS\nNEEDED"
+	NoRepairsNeededTip = "There are no repairs needed!"
+	CantRepairInCombatTip = "Can't repair during combat!"
+	CantRepairInCombatCursor = "<bad>CAN'T REPAIR\nDURING COMBAT</bad>"
+
+	HireCrewFmt = "Hire {0} Crew: {1}"
+	HireCrewTip = "Hire crew to replace those killed in action."
+	NumCrewTip = "The number of crew to hire."
+
+	ForgetDestroyed = "Forget Destroyed Parts"
+	ForgetDestroyedTip = "Forgets about all of the parts that have been destroyed but not yet rebuilt."
+	NothingToForget = "Nothing to forget."
+	ConfirmForgetDestroyed = "Are you sure you wish to forget about all of the destroyed parts? This is irreversible!"
+
+	PartsDestroyedFmt = "Parts Destroyed: {0}"
+	PartsDamagedFmt = "Parts Damaged: {0}"
+	CrewKilledFmt = "Crew M.I.A.: {0}"
+
+	RepairDebtFmt = "Repairing your ship will cost <ins_money>{0}</ins_money> but you only have {1}. "\
+	                "You can go into debt to repair, but while in debt you will not be able to buy any additions for your ship."
+}
+
+CrewBox
+{
+	Title = "Crew"
+	Crew = "CREW"
+	Beds = "BEDS"
+	NumCrewTip = "The current number of crew on the ship."
+	MaxCrewTip = "The maximum number of crew that the ship can carry."
+	AddOne = "+1"
+	AddFmt = "+{0}"
+	AddOneTip = "Hire 1 crew.\n\nHold <btn id='Crew.FiveAtATime'/> to hire 5."
+	AddMax = "+MAX"
+	AddMaxTip = "Hire as many crew as possible."
+	RemoveOne = "-1"
+	RemoveFmt = "-{0}"
+	RemoveOneTip = "Fire 1 crew.\n\nHold <btn id='Crew.FiveAtATime'/> to fire 5."
+	CantHireInCombat = "Cannot hire or fire crew during combat!"
+	Full = "FULL"
+}
+
+ColorPicker
+{
+	Copy = "Copy Color"
+	Paste = "Paste Color"
+}
+
+BillOfSale
+{
+	RepairsFmt = "Minor Repairs: {0}"
+	ConstructionExpenses = "<u>Construction Expenses:</u>"
+	DeconstructionRefunds = "<u>Deconstruction Refunds:</u>"
+	ItemCostFmt = "  {0}x <b>{1}</b> @ {2} = <money>{3}</money>"
+	ItemRefundFmt = "  {0}x <b>{1}</b> @ {2} = <refund>{3}</refund>"
+	HireCrewFmt = "Hire {0}x <b>Crew</b> @ {1} = <money>{2}</money>"
+	FireCrewFmt = "Fire {0}x <b>Crew</b> @ {1} = <refund>{2} REFUND</refund>"
+	ExpensesSubtotalFmt = "Expenses Subtotal: <money>{0}</money>"
+	RefundsSubtotalFmt = "Refunds Subtotal: <refund>{0}</refund>"
+	TotalCostFmt = "<b>TOTAL COST: <money>{0}</money></b>"
+	TotalRefundFmt = "<b>TOTAL REFUND: <refund>{0}</refund></b>"
+}
+
+FuelCostBreakdown
+{
+	FuelForShipFmt = "{0} ({1:0}%) = {2}"
+	TotalFuelUsedFmt = "<b>TOTAL FUEL USED: {0}</b>"
+}
+
+EditorGroups
+{
+	Weapons = "Weapons"
+	Munitions = "Munitions"
+	Defenses = "Defenses"
+	Flight = "Flight"
+	Crew = "Crew"
+	Power = "Power"
+	Misc = "Miscellaneous"
+}
+
+CategoryNouns
+{
+	ThrusterSingular = "Thruster"
+	ThrusterPlural = "Thrusters"
+}
+
+Parts
+{
+	AmmoFactory = "Cannon Ammo Factory"
+	AmmoFactoryIcon = "Ammo Factory"
+	AmmoFactoryDesc = "Manufactures projectile ammunition used by cannons."
+
+	AmmoStorage = "Cannon Ammo Storage"
+	AmmoStorageIcon = "Ammo Storage"
+	AmmoStorageDesc = "Stores a limited cache of ammunition used by cannons, which is manufactured separately by a Cannon Ammo Factory."
+
+	Armor = "Armor"
+	ArmorIcon = &Armor
+	ArmorDesc = "Absorbs a great deal of enemy weapons fire, protecting a ship's juicy innards."
+
+	Armor2 = "Armor 2x1"
+	Armor2Icon = &Armor2
+	Armor2Desc = &ArmorDesc
+
+	ArmorWedge = "Armor Wedge"
+	ArmorWedgeIcon = &ArmorWedge
+	ArmorWedgeDesc = &ArmorDesc
+
+	ArmorTri = "Armor Triangle"
+	ArmorTriIcon = &ArmorTri
+	ArmorTriDesc = &ArmorDesc
+
+	Armor2WedgeL = "Armor 1x2 Wedge (Left)"
+	Armor2WedgeLIcon = "Armor 1x2 Wedge (L)"
+	Armor2WedgeLDesc = &ArmorDesc
+
+	Armor2WedgeR = "Armor 1x2 Wedge (Right)"
+	Armor2WedgeRIcon = "Armor 1x2 Wedge (R)"
+	Armor2WedgeRDesc = &ArmorDesc
+
+	BigCannon = "Large Cannon"
+	BigCannonIcon = &BigCannon
+	BigCannonDesc = "Fuses together four rounds of projectile ammunition to greatly enhance damage and penetration depth compared to the Standard Cannon."
+
+	BigThruster = "Large Thruster"
+	BigThrusterIcon = &BigThruster
+	BigThrusterDesc = "A double-sized propulsion engine capable of pushing the ship with more than twice the force of the Standard Thruster."
+
+	Bunk = "Crew's Bunk"
+	BunkIcon = "Bunk"
+	BunkDesc = "Provides beds for 2 crew."
+
+	Cockpit = "Control Room"
+	CockpitIcon = &Cockpit
+	CockpitDesc = "A ship without a Control Room cannot fly or coordinate its weapons."
+
+	Corridor = "Corridor"
+	CorridorIcon = "Cor."
+	CorridorDesc = "A hallway through which crew quickly travel."
+
+	Conveyor = "Moving Walkway"
+	ConveyorIcon = &Conveyor
+	ConveyorDesc = "Allows crew to travel faster, but only in one direction."
+
+	Door = "Door"
+	DoorIcon = &Door
+	DoorDesc = "Allows crew (and fire!) to travel between rooms."
+
+	IonBeam = "Ion Beam Emitter"
+	IonBeamIcon = "Ion Beam"
+	IonBeamDesc = "Shoots an extremely powerful beam of ion energy in a fixed direction."
+
+	MedCannon = "Standard Cannon"
+	MedCannonIcon = &MedCannon
+	MedCannonDesc = "Fires single rounds of projectile ammunition that can penetrate into enemy ships, sometimes starting fires."
+
+	MedThruster = "Standard Thruster"
+	MedThrusterIcon = &MedThruster
+	MedThrusterDesc = "A standard-sized propulsion engine capable of pushing the ship with a modest amount of force."
+
+	PowerStorage = "Power Storage"
+	PowerStorageIcon = "Storage"
+	PowerStorageDesc = "Stores a limited cache of plasma batteries that may be used by nearby ship's systems."
+
+	Quarters = "Crew's Quarters"
+	QuartersIcon = "Quarters"
+	QuartersDesc = "Provides beds for 6 crew."
+
+	Reactor = "Reactor Core"
+	ReactorIcon = "Reactor"
+	ReactorDesc = "Continuously produces the plasma batteries needed to power many of the ship's systems."
+
+	FtlDrive = "FTL Drive"
+	FtlDriveIcon = &FtlDrive
+	FtlDriveDesc = "Enables the ship to jump to other locations in the galaxy using faster-than-light (F.T.L.) technology. "\
+	               "Also increases the maximum amount of <fuel>FUEL</fuel> that can be stored."
+
+	ShieldGen = "Shield Generator"
+	ShieldGenIcon = &ShieldGen
+	ShieldGenDesc = "Projects a defensive energy shield in an arc outside the ship, blocking most incoming fire."
+
+	PointDefense = "Point Defense System"
+	PointDefenseIcon = "Point Defense"
+	PointDefenseDesc = "An automated defensive system that shoots down enemy missiles using super-heated plasma rounds. Ineffective versus ships."
+
+	SmallLaser = "Small Laser Blaster"
+	SmallLaserIcon = "Small Laser"
+	SmallLaserDesc = "A highly accurate and versatile weapon that fires single blasts of energy, dealing moderate damage to enemy ships."
+
+	ElectroBolt = "Electro-Bolt"
+	ElectroBoltIcon = &ElectroBolt
+	ElectroBoltDesc = "Fires bolts of electrical energy that deal little damage but can short-circuit enemy systems, causing them to lose power. Especially effective against shields."
+
+	SmallThruster = "Small Thruster"
+	SmallThrusterIcon = &SmallThruster
+	SmallThrusterDesc = "A small propulsion engine capable of pushing the ship with only a small amount of force. Useful mainly for maneuvering."
+
+	Structure = "Structure"
+	StructureIcon = &Structure
+	StructureDesc = "The underlying structural frame that holds a ship together. Structure is automatically included with all rooms and corridors."
+
+	StructureWedge = "Structure Wedge"
+	StructureWedgeIcon = &StructureWedge
+	StructureWedgeDesc = &StructureDesc
+
+	Structure2WedgeL = "Structure 1x2 Wedge (Left)"
+	Structure2WedgeLIcon = "Structure\n1x2 Wedge (L)"
+	Structure2WedgeLDesc = &StructureDesc
+
+	Structure2WedgeR = "Structure 1x2 Wedge (Right)"
+	Structure2WedgeRIcon = "Structure\n1x2 Wedge (R)"
+	Structure2WedgeRDesc = &StructureDesc
+
+	SensorArray = "Sensor Array"
+	SensorArrayIcon = "Sensors"
+	SensorArrayDesc = "Extends the sensor range of your ship."
+
+	FireExtinguisher = "Fire Extinguisher"
+	FireExtinguisherIcon = &FireExtinguisher
+	FireExtinguisherDesc = "Stores a fire extinguisher that crew can use to put out fires."
+
+	MissileLauncher = "Missile Launcher"
+	MissileLauncherIcon = &MissileLauncher
+	MissileLauncherDesc = "Launches long-range guided missiles that inflict damage over a large area."
+
+	MissileFactory = "Missile Factory"
+	MissileFactoryIcon = &MissileFactory
+	MissileFactoryDesc = "Manufactures missiles used by missile launchers."
+
+	MissileStorage = "Missile Storage"
+	MissileStorageIcon = &MissileStorage
+	MissileStorageDesc = "Stores a limited cach of missiles, which are manufactured separately by a Missile Factory."
+
+	WallHole = "Hole"
+	WallHoleDesc = "A hole blasted through a wall"
+
+	Rubble1 = "Rubble 1"
+	Rubble2 = "Rubble 2"
+}
+
+PartToggles
+{
+	OnOff_Off = "<b>Power: <bad>Off</bad></b>\n\nHotkey: <btn id='PartToggles.on_off'/>"
+	OnOff_On = "<b>Power: <good>On</good></b>\n\nHotkey: <btn id='PartToggles.on_off'/>"
+	FireMode_Hold = "<b>Fire: Hold</b>\nDon't fire until given a target.\n\nHotkey: <btn id='PartToggles.fire_mode'/>"
+	FireMode_AtWill = "<b>Fire: At Will</b>\nFire at all enemy targets within range.\n\nHotkey: <btn id='PartToggles.fire_mode'/>"
+}
+
+GalaxyMap
+{
+	PlanetInfoFmt = "Class: <b>{0}</b>\nMass: <b>{1}</b>\nDistance: <b><ftl>{2}</ftl></b>"
+	CurPlanetInfoFmt = "Class: <b>{0}</b>\nMass: <b>{1}</b>"
+	ViewSector = "View Sector"
+	PlotCourseFmt = "Plot FTL Jump\n{0}"
+	PlotCourseNoFtl = "No FTL Drive"
+	PlotCourseNoFtlTip = "None of your ships have an operational FTL Drive. Add FTL Drives to your ships to enable FTL jumps."
+	PlotCourseNoFuel = "You need more FTL Drive fuel to make an FTL jump of this distance."
+	PlotCourseOnlySelectedMsg = "Do you want to plot a course for <b>all</b> of your ships or only your <b>selected</b> ships?"
+	PlotCourseAllShipsFmt = "All Ships\n{0}"
+	PlotCourseSelectedShipsFmt = "Only Selected\n{0}"
+	PlotCourseNoneSelected = "No ships were selected!"
+	CancelCourseFmt = "Cancel FTL Jump\n{0}"
+	CurrentLocation = "CURRENT LOCATION"
+}
+
+Planets
+{
+	Alien = "Exotic"
+	Barren = "Barren"
+	Gas = "Gas Giant"
+	Lava = "Volcanic"
+	Rocky = "Rocky"
+	Sun = "Star"
+	Terra = "Terran"
+}
+
+Tutorials
+{
+	Okay = "Got It!"
+	HowToPlay = "How to Play:"
+	HowToPlayDialog = "How to Play"
+
+	Ammo1
+	{
+		Title = "Ships: Cannons & Missiles"
+		Cannon = "<yellow>Cannons</yellow> and <yellow>Missile Launchers</yellow> are projectile weapons that use <yellow>ammunition</yellow> and <yellow>missiles</yellow> instead of power."
+		Factory = "Ammunition is manufactured at an <yellow>Ammo Factory</yellow>, and missiles are manufactured at a <yellow>Missile Factory</yellow>."
+		Crew = "Your <yellow>crew</yellow> will carry ammo and missiles from your factories to your cannons and missile launchers."
+		Tip = "<green><b>TIP:</b></green> How often a cannon or missile launcher can shoot depends on how quickly crew can deliver ammo or missiles to it."
+	}
+
+	Blueprints1
+	{
+		Title = "Advanced Ship Design"
+		MirrorMode = "Enable <yellow>mirror mode</yellow> to quickly create symmetrical ship designs."
+		SelectCopyPaste = "Use the <yellow>selection tool</yellow> to copy, paste, mirror, rotate, or delete entire sections of your ship."
+		Button = "To modify your ship's <blue>blueprints</blue>, click the <b>Toggle Blueprints</b> button."
+		Ship = "Use blueprints to make temporary changes to your design that would otherwise be illegal, and to experiment before spending any <green>₡</green> credits."
+		Commit = "When you're satisfied with your design, click the <b>MAKE IT SO</b> button. Your ship will be updated and the cost will be deducted from your <green>₡</green> credits."
+	}
+
+	Build1
+	{
+		Title = "Upgrading Your Ship"
+		Button = "To <yellow>upgrade your ship</yellow>, click the <b>Build</b> button in the lower left."
+		Parts = "To <yellow>add a part</yellow> to your ship, <b>select it</b> in the box below. Then <b>left-click</b> on your ship where you want to add it."
+		Rotate = "To <yellow>rotate a part</yellow> before adding it, press the rotation buttons or <b>right-click</b>."
+		Tip = "<green><b>TIP:</b></green> You can't upgrade your ship while under fire from enemy ships!"
+	}
+
+	Build2
+	{
+		Title = "Upgrading Your Ship (Continued)"
+		Grab = "To <yellow>pick up a part</yellow> and move it somewhere else, use the <b>Grab</b> tool."
+		Delete = "To <yellow>remove a part</yellow> from your ship, use the <b>Delete</b> tool. You will receive a 75% refund."
+		Tip = "<green><b>TIP:</b></green> Made a mistake? Just click the <b>Undo</b> button or press <btn id='Design.Undo'/>."
+		Close = "When you're <yellow>finished</yellow> upgrading your ship, press the <b>Build</b> button again or <btn id='General.Cancel'/> to exit the Build mode."
+	}
+
+	CameraControls1
+	{
+		Title = "Controlling the Camera"
+		EdgePan = "To <yellow>pan the camera</yellow>, move the <b>mouse cursor</b> to the edge of the screen or press the <b>arrow or WASD keys</b>."
+		Zoom = "To <yellow>zoom in and out</yellow>, use the <b>scroll wheel</b> on your mouse or press the <btn id='View.ZoomIn'/> and <btn id='View.ZoomOut'/> keys."
+		Tip = "<green><b>TIP:</b></green> Can't find your ship? Click its icon in the lower-left corner or press the <btn id='View.FocusSelected'/> (Focus) key."
+	}
+
+	CameraControls2
+	{
+		Title = "Controlling the Camera (Advanced)"
+		Drag = "To <yellow>drag the camera</yellow>, click, hold, and then drag the <b>middle mouse button</b>."
+		FocusClick = "To <yellow>focus the camera</yellow> on any ship, click the <b>middle mouse button</b> on it.\n\nYou can also <b>middle-click</b> in empty space to center the camera there."
+		AltDrag = "To <yellow>focus on multiple ships</yellow>, hold the <btn id='View.FocusCursorMode'/> key, <b>left click</b>, and drag a box around the ships."
+		Tip = "<green><b>TIP:</b></green> Press the <btn id='View.FocusSelected'/> key to focus on your ship."
+	}
+
+	Minimap1
+	{
+		Title = "The Minimap"
+		BasicInfo = "The <yellow>minimap</yellow> in the lower-right corner displays the locations of ships in the area."
+		ShipDots = "The location of your ship is indicated by the <green>green dot</green>.\n\nThe locations of enemy ships are indicated by the <red>red dots</red>."
+		LeftClick = "<b>Left-click</b> in the minimap to move the camera to that location."
+	}
+
+	Combat1
+	{
+		Title = "Attacking the Enemy"
+		Blips = "Enemy ships that are too far away to see directly can only be seen as pulsing <red>radar blips</red>."
+		Attack = "To <yellow>attack an enemy</yellow> starship, <b>right-click</b> on the enemy ship or on its radar blip.\n\nYour ship will automatically fly to it and attack."
+		Tip = "<green><b>TIP:</b></green> Some enemy ships will be too powerful for you to defeat! Flee and <yellow>upgrade</yellow> your ship before attacking them."
+	}
+
+	CreativeMode1
+	{
+		Title = "Creative Mode"
+		Unlimited = "Creative mode allows you to create and battle ships with virtually unlimited <green>₡</green> credits."
+		NewShip = "To <yellow>design a new ship</yellow> from scratch, click the <b>New Ship</b> button."
+		SaveShip = "To <yellow>save</yellow> your ship design, click the <img name='hamburger'/> button on the build panel and then select <b>Save Ship Design</b>."
+		AddShip = "To <yellow>add a saved ship</yellow> to the game, click the <b>Ship Library</b> button."
+		Allegiance = "To <yellow>assign</yellow> a ship to a different player, click the little <img name='hamburger'/> button next to the ship's name, select <b>Allegiance</b>, and then pick a player. "\
+		             "Ships assigned to different players will automatically fire at each other."
+		PlayAs = "To change which player's ships you can <yellow>control</yellow>, click the <img name='hamburger'/> button near the top and select <b>Play As</b>."
+	}
+
+	Crew1
+	{
+		Title = "Ships: Crew"
+		InteriorButton = "To <yellow>view the inside</yellow> of your ship, click the <b>interior toggle</b> button."
+		Crew = "<yellow>Crew</yellow> operate your ship by manning weapons, piloting, and carrying supplies. The more crew a ship has, the more effectively it can function!"
+		Indicator = "A part that doesn't have any crew operating it will have a <red>red icon</red>."
+	}
+
+	Crew2
+	{
+		Title = "Ships: Crew (Continued)"
+		Button = "To make room for <yellow>more crew</yellow>, click the <b>Build</b> button again."
+		Quarters = "Add a <yellow>Crew's Bunk</yellow> or <yellow>Crew's Quarters</yellow> to increase the number of crew on your ship. You can never have too many!"
+		Door = "Add <yellow>doors</yellow> to your ship so that crew can walk between rooms."
+		Meter = "The <b>Crew Meter</b> suggests <bad>minimum</bad> and <good>recommended</good> crew for your ship."
+	}
+
+	Micro1
+	{
+		Title = "Micromanaging Your Ship"
+		Select = "Hold the <btn id='Game.SelectParts'/> key and <b>Left-click</b> on an individual part to <yellow>select</yellow> it.\n\nYou can also drag a box around multiple parts."
+		Power = "Press the <b>Power</b> button to <yellow>turn it off</yellow>. Any crew operating the part will leave and help out elsewhere."
+		HoldFire = "Press the <b>Fire Mode</b> button to tell a weapon to <yellow>hold fire</yellow> until you give it a specific target."
+		Target = "With a weapon selected, <b>right-click</b> on an enemy part to <yellow>target</yellow> the weapon on it."
+	}
+
+	Movement1
+	{
+		Title = "Flying Your Ship"
+		Move = "To <yellow>fly your starship</yellow>, <b>right-click</b> anywhere in space. Your ship will fly there automatically."
+	}
+
+	Movement2
+	{
+		Title = "Flying Your Ship (Advanced)"
+		Drag = "To <yellow>adjust the orientation</yellow> of your ship, <b>right-click</b> and <b>drag</b>."
+		Queue = "To <yellow>add waypoints</yellow>, hold <btn id='Game.AppendSelection'/> while right-clicking."
+		Handles = "To <yellow>move or rotate</yellow> existing waypoints, hold <btn id='Game.AppendSelection'/> and then drag one of the handles that appear.\n\nTo <yellow>delete</yellow> a waypoint, <b>right-click</b> on one of its handles."
+	}
+
+	Multiship1
+	{
+		Title = "Expanding Your Fleet"
+		BuyShip = "To <yellow>expand your fleet</yellow>, press the <b>Buy Ship</b> button."
+		Selected = "When you have more than one ship, <b>left-click</b> on the ship you want to <yellow>control</yellow>.\n\nThe controlled ship has a <green>green circle</green> around it."
+		BoxSelect = "To <yellow>control multiple ships</yellow> at once, <b>left-click and drag</b> a box around the ships.\n\nOr, hold <btn id='Game.AppendSelection'/> and <b>left-click</b> on each ship."
+	}
+
+	Paint1
+	{
+		Title = "Painting Your Ship"
+		Button = "To <yellow>paint your ship's exterior</yellow>, click the <b>Paint</b> button in the lower left."
+		ColorWheel = "From here you can change your ship's <yellow>base paint color</yellow> and <yellow>pattern</yellow>."
+		Decals = "You can also paint <yellow>decals</yellow> onto your ship.\n\nA ship can have up to two layers of decals. Each layer can have a different color, and all decals within a layer share that color."
+		Tip = "<green><b>TIP:</b></green> Painting your ship is free and has no effect on its capabilities."
+	}
+
+	Power1
+	{
+		Title = "Ships: Power"
+		Reactor = "<yellow>Reactors</yellow> generate the plasma batteries for your ship's thrusters, energy weapons, and other parts."
+		Crew = "Your <yellow>crew</yellow> will carry plasma batteries from the <b>Reactor</b> or <b>Power Storage</b> to your ship's parts."
+		Meter = "The <b>Power Meter</b> suggests <bad>minimum</bad> and <good>recommended</good> power for your ship."
+		Indicator = "A part that doesn't have enough power to operate will have a <red>red icon</red>."
+		Tip = "<green><b>TIP:</b></green> How often an energy weapon can shoot depends on how quickly crew can deliver power to it."
+	}
+
+	Repairs1
+	{
+		Title = "Repairing Your Ship"
+		Button = "When your ship needs repairs, a red <b>Repair</b> button in the lower left will appear. Click it to <yellow>open repair mode</yellow>."
+		Parts = "To <yellow>repair a single part</yellow> that is damaged or destroyed, <b>left-click</b> on it."
+		RepairAll = "Or, to <yellow>repair your whole ship</yellow>, click the <b>Repair All</b> button."
+	}
+
+	Tactics1
+	{
+		Title = "Combat Tactics"
+		Target = "After attacking an enemy, <b>right-click</b> again on a particular part of the enemy ship to <yellow>target</yellow> your weapons on it."
+		Reactor = "<green><b>TIP:</b></green> Destroy the enemy starship's <yellow>reactor</yellow> to turn it into a lifeless husk!\n\n"
+	}
+
+	Tactics2
+	{
+		Title = "Combat Tactics (Advanced)"
+		Drag = "To choose the <yellow>distance</yellow> and <yellow>direction</yellow> to attack from, <b>right-click</b> on the enemy ship and <b>drag</b> away from it."
+		Handles = "To adjust the <yellow>distance</yellow>, <yellow>direction</yellow>, or <yellow>rotation</yellow> after attacking, hold <btn id='Game.AppendSelection'/> and then drag one of the handles that appear."
+		TargetQueue = "To <yellow>queue additional targets</yellow>, hold <btn id='Game.AppendSelection'/> while right-clicking on the parts."
+	}
+
+	Thrusters1
+	{
+		Title = "Ships: Thrusters"
+		Thruster = "Add <yellow>thrusters</yellow> to increase your ship's speed and maneuverability. A ship with too few thrusters cannot fly."
+		Many = "Thrusters propel your ship in their opposite direction.\n\nThe speed and maneuverability of your ship depends on the number, location, orientation, and size of its thrusters."
+		Tip = "<green><b>TIP:</b></green> A speedy and maneuverable starship has many thrusters in a variety of locations and orientations."
+	}
+
+	Time1
+	{
+		Title = "Controlling Time"
+		Buttons = "To <yellow>pause the game</yellow> at any time, click the <b>||</b> button in the top-left corner or press the <btn id='Game.PauseToggle'/> key."
+		Faster = "To make time <yellow>go faster</yellow> or <yellow>slower</yellow>, click the <b>&gt;&gt;</b> or <b>&lt;&lt;</b> buttons."
+		Tip = "<green><b>TIP:</b></green> If you're ever having trouble clicking on something because it's moving too fast, just press <btn id='Game.PauseToggle'/> to pause the game."
+	}
+
+	Ftl1
+	{
+		Title = "FTL Travel"
+		NoEnemies = "Once all of the enemy ships have been defeated, it's time to <yellow>travel</yellow> to another <yellow>sector</yellow>!\n"
+		BuildFtl = "Construct an <yellow>FTL Drive</yellow> to enable <yellow>F</yellow>aster-<yellow>T</yellow>han-<yellow>L</yellow>ight jumps."
+		Map = "Then, open the <b>Galaxy Map</b> by clicking its button or pressing the <btn id='Game.ToggleMap'/> key."
+	}
+
+	Ftl2
+	{
+		Title = "FTL Travel (Continued)"
+		ViewNode = "Click on a nearby <yellow>sector</yellow> to view information about it. Different sectors have different difficulties of enemies.\n\nChoose a destination and click the <b>Plot FTL Jump</b> button."
+		PlotCourse = "Your crew will automatically power up your ship's FTL drives.\n\nOnce powered to <ftl>100%</ftl>, click <b>ENGAGE</b> or press the <btn id='Game.DoFtlJump'/> key."
+		Fuel = "<green><b>TIP:</b></green> FTL jumps use <fuel>FUEL</fuel>. The amount used depends on the distance traveled, the size of your ship, and the placement of its FTL Drives."
+	}
+
+	Fire1
+	{
+		Title = "Fires"
+		Cause = "<red>Fires</red> can break out when hit by certain weapons and when volatile parts explode. Left unattended, "\
+		        "fires will quickly spread, causing damage and killing crew."
+		FireExtinguisher = "Add <yellow>fire extinguishers</yellow> to your ship to help fight fires. Your crew will pick up "\
+		                   "fire extinguishers and use them to put out fires."
+		Spread = "<green><b>TIP:</b></green> Fires can spread through open areas and through doors, but not through walls. "\
+		         "Adding a lot of doors to your ship will make it more vulnerable to fires."
+	}
+}
