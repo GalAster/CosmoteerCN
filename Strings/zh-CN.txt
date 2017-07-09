@@ -20,15 +20,15 @@ Misc
 
 MainMenu
 {
-	NewGame = "New Game"
-	LoadGame = "Load Game"
-	Exit = "Exit"
-	Settings = "Settings"
-	Mods = "Mods"
+	NewGame = "开始新游戏"
+	LoadGame = "载入游戏"
+	Exit = "退出"
+	Settings = "设置"
+	Mods = "模组"
 	ShipLibrary = "Ship Library"
-	Credits = "Credits"
-	Community = "Community"
-	Forum = "Forum"
+	Credits = "制作组"
+	Community = "社区"
+	Forum = "官方论坛"
 	Discord = "Chat (Discord)"
 	Wiki = "Wiki"
 	Reddit = "Reddit"
@@ -36,28 +36,28 @@ MainMenu
 	Twitter = "Twitter"
 	Itch = "itch.io"
 	IndieDB = "Indie DB"
-	Feedback = "Send Feedback"
-	OpenUrlConfirm = "This will minimize Cosmoteer and open a page in your web browser."
+	Feedback = "发送反馈"
+	OpenUrlConfirm = "Cosmoteer 将会最小化并且在浏览器中打开页面."
 }
 
 NewGame
 {
-	BountyMode = "<b>Bounty Hunter</b>\n<s6> \n</s6><color r='204' g='204' b='204'>Learn how to play</color>"
-	BountyModeTip = "Destroy enemy ships to earn bounties and upgrade your own ship."
-	CreativeMode = "<b>Creative</b>\n<s6> \n</s6><color r='204' g='204' b='204'>Unlimited money</color>"
-	CreativeModeTip = "Build the ships of your dreams with an unlimited amount of money."
+	BountyMode = "<b>赏金模式</b>\n<s6> \n</s6><color r='204' g='204' b='204'>Learn how to play</color>"
+	BountyModeTip = "通过摧毁敌人的舰船获得赏金,并且升级你的舰船."
+	CreativeMode = "<b>创造模式</b>\n<s6> \n</s6><color r='204' g='204' b='204'>Unlimited money</color>"
+	CreativeModeTip = "你有无限多的金钱来打造你设想中的舰船!"
 }
 
 LoadSaveGame
 {
-	TitleLoad = "Load Game"
-	TitleSave = "Save Game"
-	OkayLoad = "Load Game"
-	OkaySave = "Save Game"
-	OpenFolder = "Open Folder"
-	Delete = "Delete"
-	ConfirmDeleteFmt = "Are you sure you wish to delete '{0}'?"
-	ConfirmOverwrite = "Overwrite existing saved game?"
+	TitleLoad = "载入游戏"
+	TitleSave = "保存游戏"
+	OkayLoad = "载入游戏"
+	OkaySave = "保存游戏"
+	OpenFolder = "导入存档"
+	Delete = "删除存档"
+	ConfirmDeleteFmt = "你确认你要删除'{0}'吗?"
+	ConfirmOverwrite = "你确定要覆盖掉这个存档吗?"
 }
 
 ShipLibrary
@@ -181,7 +181,7 @@ Inputs
 
 	Design
 	{
-		Name = "Ship Designer"
+		Name = "舰船设计"
 		BuildOpen = "Open Build Panel"
 		BuildClose = "Close Build Panel"
 		ToggleBlueprints = "Toggle Blueprints"
@@ -374,13 +374,13 @@ Settings
 	InterfaceTab = "Interface"
 	MiscTab = "Misc"
 
-	WindowMode = "Window Mode"
+	WindowMode = "显示模式"
 	WindowModeTip = "The style of window used to display the game."
 	ExclusiveFullScreen = "Exclusive Full Screen"
 	ExclusiveFullScreenTip = "The game will use your entire monitor and allow you to select the display resolution. "\
 	                         "This mode may be required to utilize some advanced GPU features such as G-SYNC and FreeSync."
-	ResizableWindow = "Resizable Window"
-	ResizableWindowTip = "The game will run in a window on your desktop. You may freely move and resize the window."
+	ResizableWindow = "自适应窗口"
+	ResizableWindowTip = "游戏将会以窗口模式运行, 你能自由的拉伸游戏窗口."
 	BorderlessFullScreen = "Borderless Full Screen"
 	BorderlessFullScreenTip = "The game will use your entire monitor and run at your current desktop resolution. "\
 	                          "Use this mode if Exclusive Full Screen causes problems or if you want to be able to quickly switch to other applications."
@@ -418,7 +418,7 @@ Settings
 	FancyParticles = "Fancy Particles"
 	FancyParticlesTip = "If enabled, additional particle effects will be rendered. Turning this off can improve performance."
 
-	LimitFps = "Limit Framerate"
+	LimitFps = "限制FPS"
 	LimitFpsTip = "If checked, the game will not run any faster than a particular framerate."
 	LimitFpsNumber = " Frames Per Second"
 	LimitFpsNumberTip = "The maximum number of frames to render per second."
@@ -430,7 +430,7 @@ Settings
 	InterfaceVol = "Interface Vol."
 	InterfaceVolTip = "Controls the overall volume of all user interface sounds."
 
-	AutoSave = "Auto-Save"
+	AutoSave = "自动保存"
 	AutoSaveTip = "If checked, the game will be automatically saved at regular intervals."
 	AutoSaveEvery = "Every "
 	AutoSaveEveryMinutes = " minutes"
@@ -648,24 +648,24 @@ ColorSettings
 
 Mods
 {
-	DialogName = "Mods Manager"
-	ModOnFmt = "{0} <good>(ON)</good>"
-	ModOffFmt = "{0} <bad>(OFF)</bad>"
-	VersionFmt = "Version {0}"
-	AuthorFmt = "By {0}"
-	ModLoadError = "Error loading mod {0}: {1}"
-	RestartInfo = "You must restart Cosmoteer for any mod changes to take effect."
-	InstallMod = "Install Mod..."
-	OverwriteConfirm = "A mod with that name is already installed. Do you want to overwrite it?"
-	ModInstalled = "Mod successfully installed! You must turn it on before it will take effect."
-	ShowFolder = "Show Folder"
-	FindMods = "Find Mods"
-	FindTranslations = "Find Translations"
-	UninstallMod = "Uninstall Mod"
-	UninstallConfirm = "Are you sure you wish to uninstall this mod?"
-	UninstallComplete = "Mod successfully uninstalled."
-	CreatePackage = "Create Mod Package";
-	CreatePackageSuccessful = "Mod package saved!";
+	DialogName = "模组管理器"
+	ModOnFmt = "{0} <good>(启用)</good>"
+	ModOffFmt = "{0} <bad>(关闭)</bad>"
+	VersionFmt = "版本号: {0}"
+	AuthorFmt = "作者: {0}"
+	ModLoadError = "模组启动失败 - {0}: {1}"
+	RestartInfo = "你必须重启 Cosmoteer 来使得某些模组生效!."
+	InstallMod = "导入模组"
+	OverwriteConfirm = "已有同名模组被安装, 你确认要覆盖吗?"
+	ModInstalled = "模组安装成功! 你必须启动该模组才能生效."
+	ShowFolder = "打开文件管理器"
+	FindMods = "寻找模组"
+	FindTranslations = "寻找本地化翻译"
+	UninstallMod = "卸载模组"
+	UninstallConfirm = "你确认要卸载这个模组吗?"
+	UninstallComplete = "模组卸载成功."
+	CreatePackage = "创建一个模组";
+	CreatePackageSuccessful = "模组创建成功!";
 }
 
 LoadPaintScheme
